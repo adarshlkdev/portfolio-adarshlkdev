@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --glass: #b2c9d20b;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+
+html { scroll-behavior: smooth; }
+
+::-webkit-scrollbar { width: 15px; }
+
+::-webkit-scrollbar-track { background: #4f4f4f; }
+
+::-webkit-scrollbar-thumb { background: rgb(99, 99, 99); }
+
+::-webkit-scrollbar-thumb:hover { background: rgb(119, 119, 119); }
+
+.blur-box{
+    background: linear-gradient(rgba(63, 44, 124, 0.883) 0%, rgb(0, 132, 255) 100%);
+    filter: blur(125px);
+}
+ 
+.project-card {
+    border: 1px solid var(--glass);
+    background-color: var(--glass);
+    height: max-content;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
+@media screen and (max-width:958px) {
+    .about{
+        flex-direction: column !important;
+    }
+}
+
+.more-icon{
+    display: none;
+}
+
+@media screen and (max-width:500px){
+    .navbar_{
+        padding: 10px !important;
+    }
+    .header-link{
+        font-size: large !important;
+    }
+}
+
+@media screen and (max-width:498px){
+    .navbar_{
+        display: none;
+    }
+    .more-icon{
+        display: block;
+    }
+}
+
+.navbar_opt:hover{
+    background-color: rgb(9, 9, 9) !important;
+    color:white !important;
+}
