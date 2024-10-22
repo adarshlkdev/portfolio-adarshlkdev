@@ -70,7 +70,7 @@ export default function Projects() {
             img: Kanban,
             link: projectsInfo.Kanbanize.visit,
             source: projectsInfo.Kanbanize.github,
-            tech: ["Next JS", "Typescript", "Shadcn", "Clerk", "MongoDB"],
+            tech: ["Next JS", "Typescript", "Shadcn", "Clerk", "MongoDB" , "Tailwind CSS"],
             info: "Streamlined task management using a Kanban board to enhance project tracking and team collaboration. Kanbanize is a project management tool that allows you to create, update, and delete tasks, ensuring a seamless workflow."
         },
         {
