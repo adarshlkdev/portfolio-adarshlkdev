@@ -10,7 +10,7 @@ export const twitterLink = "https://twitter.com/adarshlkdev"
 export const postmanLink = "https://badgr.com/public/assertions/wmyOB0UkSD2J2ZzIpQgmOA?identity__email=adarshvhp3344@gmail.com"
 export const grassLink = "https://drive.google.com/file/d/1qs8cjJz4nUjjU-k0mZeKt7lCw3cL_8C6/view?pli=1"
 export const SkillBuildLink = "https://drive.google.com/file/d/1glrcUj7TkQCK0DOlrDOQL5vIwnVmjJab/view"
-export const garaazLink = "https://drive.google.com/file/d/1uUj3K9ZW5fVYGUr9EpSRcrVzOp5jb5ae/view?usp=sharing"
+export const garaazLink = "https://drive.google.com/file/d/1mcl0ThXRGQghbov4SMwAdNNxAqLnuWq4/view?usp=sharing"
 
 // projects links
 export const projectsInfo = {
