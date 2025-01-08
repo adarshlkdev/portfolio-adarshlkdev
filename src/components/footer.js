@@ -50,7 +50,8 @@ export default function Footer() {
             className="text-gray-500 dark:text-gray-400"
             alt="This website took 10+ coffees to bring to life."
           >
-            This website took 10+ coffees to bring to life.
+            World is full of coffee, but this website took 10+ coffees to bring
+            to life. ☕
           </p>
         </div>
       </div>
