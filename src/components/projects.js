@@ -67,22 +67,6 @@ function ProjectCard({
 export default function Projects() {
   const projects = [
     {
-      title: "FireSink",
-      img: FireSink,
-      link: projectsInfo.FireSink.visit,
-      source: projectsInfo.FireSink.github,
-      tech: ["Next JS", "Typescript", "Shadcn", "Zustand", "FireBase", "Clerk"],
-      info: "FireSink is a robust file storage solution built with Next.js and TypeScript. It allows you to store all types of files (JPEG, PNG, DOCs, PPTX, MP4, etc.) with their timestamps of creation. It also provides the functionality to perform CRUD operations on them.",
-    },
-    {
-      title: "GitFinder",
-      img: GitFinder,
-      link: projectsInfo.GitFinder.visit,
-      source: projectsInfo.GitFinder.github,
-      tech: ["Next JS", "Typescript", "Shadcn", "Acertainity UI"],
-      info: "GitFinder is your gateway to the coding world. Utilizing GitHub API, effortlessly search users by username, delve into their repositories, and access vital information, streamlining your development journey.",
-    },
-    {
       title: "Snipz",
       img: Snipz,
       link: projectsInfo.Snipz.visit,
@@ -111,6 +95,22 @@ export default function Projects() {
         "Redux Toolkit",
       ],
       info: "Designed and developed a job portal using the MERN stack to connect job seekers with employers through intuitive features. Enabled job seekers to create profiles, upload resumes, and browse/filter job listings based on preferences, while employers could post jobs, manage applications, and streamline hiring. Integrated advanced search, real-time notifications, and secure role-based authentication for a seamless experience.",
+    },
+    {
+      title: "FireSink",
+      img: FireSink,
+      link: projectsInfo.FireSink.visit,
+      source: projectsInfo.FireSink.github,
+      tech: ["Next JS", "Typescript", "Shadcn", "Zustand", "FireBase", "Clerk"],
+      info: "FireSink is a robust file storage solution built with Next.js and TypeScript. It allows you to store all types of files (JPEG, PNG, DOCs, PPTX, MP4, etc.) with their timestamps of creation. It also provides the functionality to perform CRUD operations on them.",
+    },
+    {
+      title: "GitFinder",
+      img: GitFinder,
+      link: projectsInfo.GitFinder.visit,
+      source: projectsInfo.GitFinder.github,
+      tech: ["Next JS", "Typescript", "Shadcn", "Acertainity UI"],
+      info: "GitFinder is your gateway to the coding world. Utilizing GitHub API, effortlessly search users by username, delve into their repositories, and access vital information, streamlining your development journey.",
     },
   ];
   return (
