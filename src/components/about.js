@@ -20,7 +20,7 @@ export default function About() {
     },
   ];
   const info =
-    "I'm a dedicated MERN Stack Developer with the experience of creating dynamic, user-friendly web applications. Skilled in React, Node.js, and MongoDB, I specialize in crafting seamless digital solutions that blend functionality with exceptional user experience. My work spans diverse projects, allowing me to refine my expertise in both frontend and backend development while delivering innovative and efficient results tailored to unique requirements.";
+    "I'm a MERN Stack Developer skilled in React, Node.js, and MongoDB. I create dynamic, user-friendly web applications, focusing on seamless digital solutions that blend functionality with exceptional user experience.";
 
   return (
     <section
