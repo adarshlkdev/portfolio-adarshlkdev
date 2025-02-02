@@ -1,4 +1,4 @@
-﻿# Portfolio - Adarsh LK
+﻿# Portfolio - Adarsh
 
 Welcome to my portfolio repository! This project showcases my skills, projects, and experience as a Full Stack Developer.
 
@@ -62,4 +62,4 @@ Feel free to reach out if you have any questions or if you would like to collabo
 - GitHub: [adarshlkdev](https://github.com/adarshlkdev)
 
 
-Thank you for visiting my portfolio!
+## Thank you for visiting my portfolio!
