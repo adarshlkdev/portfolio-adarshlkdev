@@ -19,9 +19,7 @@ I am a dedicated MERN Stack Developer with experience in creating dynamic, user-
 ### Languages
 - JavaScript
 - TypeScript
-- HTML
-- CSS
-- Python
+- CPP
 
 ### Frontend
 - React
@@ -32,12 +30,14 @@ I am a dedicated MERN Stack Developer with experience in creating dynamic, user-
 - Node.js
 - Express.js
 - MongoDB
+- Sql
+- Redis
 
 ### Tools
 - Git
 - GitHub
-- Figma
 - Postman
+- Docker
 
 ## Projects
 
